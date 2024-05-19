@@ -1,0 +1,90 @@
+// {
+//   "brands": [
+//     {
+//       "id": 1,
+//       "name": "I-Phone"
+//     },
+//     {
+//       "id": 2,
+//       "name": "Samsung"
+//     },
+//     {
+//       "id": 21,
+//       "name": "Mi"
+//     }
+//   ],
+//   "products": [],
+//   "orders": []
+// }
+//{ sales, purchase, stock}
+{
+  // brands
+  "allproducts": [
+    {
+      "productId": 1,
+      "productName": "Apple note 9 pro max",
+      "createdDate": "2024-05-08T11:04:55.097",
+      "price": 999999,
+      "productDetail": "redmi",
+      "userId": 0
+    }
+  ],
+  // products
+  "allpurchase": [
+    {
+      "invoiceAmt": 1900,
+      "invoiceNo": "er",
+      "productId": 1,
+      "purchaseDate": "2024-05-09T10:22:24.265",
+      "purchaseId": 4,
+      "quantity": 5,
+      "supplierName": "Adi",
+      "productName": "Apple note 9 pro max"
+    },
+    {
+      "invoiceAmt": 1230,
+      "invoiceNo": "78a",
+      "productId": 1,
+      "purchaseDate": "2024-05-09T09:30:30.224",
+      "purchaseId": 3,
+      "quantity": 5,
+      "supplierName": "Abc",
+      "productName": "Apple note 9 pro max"
+    },
+    {
+      "invoiceAmt": 20000000,
+      "invoiceNo": "1",
+      "productId": 1,
+      "purchaseDate": "2024-05-08T11:32:13.264",
+      "purchaseId": 2,
+      "quantity": 3,
+      "supplierName": "Abc",
+      "productName": "Apple note 9 pro max"
+    },
+  ],
+  // orders
+  "allsales": [
+    {
+      "mobileNo": 9999999,
+      "invoiceNo": "09",
+      "productId": 1,
+      "customerName": "test",
+      "saledate": "2024-05-08T11:33:45.462",
+      "totalAmt": 23000,
+      "quantity": 2,
+      "salesId": 1,
+      "productName": "Apple note 9 pro max"
+    }
+  ],
+  // stocks
+  "allstocks": [
+    {
+      "createdDate": "2024-05-08T17:02:58.1501643",
+      "updatedDate": "2024-05-09T17:32:58.2343714",
+      "productId": 1,
+      "quantity": 7,
+      "productName": "Apple note 9 pro max",
+      "stockId": 2
+    }
+  ]
+}
